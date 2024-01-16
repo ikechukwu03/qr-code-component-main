@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;800&display=swap');
+
+
+/* defining padding and margin to * treats the whole web page as one component(meaning it targets even the head tags sef)  */
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color: hsl(221, 36%, 82%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Outfit', sans-serif;
+}
+
+.cover{
+  background-color: hsl(0, 0%, 100%);
+  width: 330px;
+  height: 500px;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.image img{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.words{
+   padding: 20px;
+}
+h1.cap{
+  font-size: 21px;
+  font-weight:700;
+  text-align: center;
+  color: hsl(216, 16%, 18%);
+}
+p{
+  margin-top: 20px;
+  color: hsl(213, 11%, 61%);
+  text-align: center;
+}
+
+footer{
+  margin-top: 20px;
+}
+footer span{
+  cursor: pointer;
+  color: blue;
+}
+
